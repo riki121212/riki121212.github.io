@@ -1,0 +1,14 @@
+h1 {
+	color: blue;
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+div {
+	text-align:center;
+}
+ul {
+	display: inline-block;
+	text-align: left;
+}

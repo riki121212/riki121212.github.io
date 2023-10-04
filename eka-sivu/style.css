@@ -1,0 +1,23 @@
+#alkuteksti {
+	background-color: lightblue;
+	text-align: center;
+}
+ul {
+	display: inline-block;
+	text-align: left;
+}
+.riisivanukas {
+	background-color: lightgreen; border: 5px solid green;
+}
+.hyytelö {
+	float: right; font-family: arial; font-size: 20px; color: red;
+}
+.hyytelöotsikko {
+	font-family: ink free;
+}
+img {
+	max-width: 100%;
+}
+body{
+	max-width: 700px; margin: auto;
+}

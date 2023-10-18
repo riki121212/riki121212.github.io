@@ -223,6 +223,13 @@ header h1 {
 /* omaa koodia */
 
 
+
+
+
+
+
+
+
 .primary-color {
 	display: flex;
     flex-wrap: wrap;
@@ -247,10 +254,6 @@ header h1 {
 .primary-color img {
 	max-width: 100%;
 	height: auto;
-}
-
-.primary-color img:hover{
-	
 }
 
 @media (max-width: 768px) {

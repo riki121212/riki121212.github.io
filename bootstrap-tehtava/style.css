@@ -1,0 +1,48 @@
+html {
+	
+}
+
+.btn-primary {
+    --bs-btn-bg: #000000;
+    --bs-btn-border-color: #000000;
+}
+
+:root {
+    --bs-dark-rgb: 145, 39, 81;
+	--bs-body-font-family: Oswald;
+}
+
+.btn { 
+	border-radius: 0; 
+}
+
+.card {
+	background-color: #912751;
+	border: none;
+}
+
+.form-control {
+	border-radius: 0; 
+}
+
+p {
+	color: #00b7ff;
+}
+
+article {
+	font-family: Open Sans;
+	text-align: center;
+	margin-bottom: 100px;
+	border: 1px solid #912751;
+	
+}
+
+aside {
+	text-align: center;
+	margin: 0;
+}
+
+footer {
+	background-color: #912751;
+	margin-top: 100px;
+}

@@ -373,7 +373,8 @@ footer {
 
 @media only screen and (max-width: 1180px) {
   #logo {
-    position: static;
+    position: relative;
+    top: -18px;
     margin: 0px;
   }
 }

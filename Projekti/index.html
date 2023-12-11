@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="fi">
+    <head>
+        <meta charset="utf-8">
+        <title>Projekti</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Quattrocento&family=Quattrocento+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Quattrocento&family=Quattrocento+Sans&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=DM+Serif+Display&family=Quattrocento&family=Quattrocento+Sans&display=swap" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+		<div class="laatikko"> 
+		<div id="popup-container" class="popup-container">
+			<div class="popup-content">
+				<h1>Huomio!</h1>
+				<h4>Tällä sivustolla käytetään tietoa ja kuvia, joita en omista. Kaikki kunnia kuuluu alkuperäisille tekijöille</h4>
+				<button id="close-popup">Close</button>
+			</div>
+		</div>
+		
+		<header>
+			<div class="header-picture">
+				<a href="index.html">
+				<img src="Kuvat/kisspng-steins-gate-0-rintarou-okabe-visual-novel-mages-steins-gate-5b231be5070101.9959607615290275570287.png" alt="Steins;Gate wiki logo" width="250" height="65">
+				</a>
+			</div>
+			<div class="header-top">
+				<a href="index.html" class="header-name"> Steins;Gate Wiki</a>
+			</div>
+			
+		<nav class="nav">
+			<ul class="nav-ul">
+				<li class="nav-li"> 
+					<a href="Bootstrap\index.html" class="nav-links">
+						<span class="nimi">Bootstrap sivusto</span>
+					</a>
+				</li>
+				<li class="nav-li">
+					<a href="index.html" class="nav-links">
+						<span class="nimi">Etusivu</span>
+					</a>
+				</li>
+				<li class="nav-li">
+					<a href="Kuvat/istockphoto-545376554-612x612.jpg" class="nav-links">
+						<span class="nimi">Jeren koti</span>
+					</a>
+				</li>
+				<li class="nav-li">
+				   <a href="#" class="nav-links">
+					  <span class="nimi">Navigointi &#9662;</span>
+				   </a>
+				   <ul class="dropdown-menu">
+					  <li class="dropdown-li"><a href="#alku">Alku</a></li>
+					  <li class="dropdown-li"><a href="#tarina">Tarina</a></li>
+					  <li class="dropdown-li"><a href="#näyttelijät">Näyttelijät</a></li>
+					  <li class="dropdown-li"><a href="#lahde">lähteet</a></li>
+					  <li class="dropdown-li"><a href="#loppu">Sivun loppu</a></li>
+				   </ul>
+				</li>
+			</ul>
+		</nav>
+			
+		</header>
+		
+		<main class="main-page" id="main-content">
+		
+		<article class="suus">
+			<h1>Huomio!</h1>
+			<h5>Tällä sivulla on käytetty seuraavia uusia tekniikoita.</h5>
+			<div class="list-tekniikat">
+				<ul class="tekniikat">
+					<li class="new-tekniikat">
+						<span>CSS taustakuva</span>
+					</li>
+					<li class="new-tekniikat">
+						<span>CSS grid asettelu</span>
+					</li>
+					<li class="new-tekniikat">
+					<span>Pop-up ikkuna käyttäen javascript</span>
+					</li>
+				</ul>
+				<ul class="tekniikat">
+					<li class="new-tekniikat">
+						<span>HTML tables</span>
+					</li>
+					<li class="new-tekniikat">
+						<span>Sivun pohjalla aika päivittyy,</span>
+					</li>
+					<li class="new-tekniikat">
+						<span>joka kerta kun sivun avaa tai päivittää (javascript)</span>
+					</li>
+				</ul>
+			</div>
+		</article>
+		
+		<aside id="info-box">
+			<table class="infobox">
+				<tbody>
+					<tr> 
+						<td colspan="2" class="infobox-subheader" style="background:#CCF; font-size:125%; font-style:italic; font-weight:bold;">Steins;Gate</td>
+					</tr>
+					<tr> 
+						<td colspan="2" class="infobox-image">
+							<img src="Kuvat/Steins;Gate_cover_art.jpg" alt="Steins;Gate kansikuva" class="infobox-image2">
+							<div class="infobox-caption">Kansikuva, jossa esiintyy (vasemmalta oikealle) Okabe Rintaro, Makise Kurisu, ja Shiina Mayuri </div>
+						</td>
+					</tr>
+					<tr> 
+							<th scope="row" class="infobox-label"> Genre</th>
+						<td class="infobox-data">
+							<div class="plainlist">
+								<ul class="infobox-genre">
+									<li>Psykologinen trilleri</li>
+									<li>Tieteiskirjallisuus</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+					<tr> 
+						<td colspan="2" class="infobox-subheader" style="background:#CCF; font-weight:bold;">Anime tv-sarja</td>
+					</tr>
+					<tr> 
+						<th scope="row" class="infobox-label"> Ohjaajat</th>
+						<td class="infobox-data">
+							<div class="plainlist">
+								<ul class="infobox-genre">
+									<li>Hiroshi Hamasaki</li>
+									<li>Takuya Satō</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+					<tr> 
+						<th scope="row" class="infobox-label"> Tuottajat</th>
+						<td class="infobox-data">
+							<div class="plainlist">
+								<ul class="infobox-genre">
+									<li>Kenjirō Gomi</li>
+									<li>Takayuki Matsunaga</li>
+									<li>Yoshito Danno</li>
+									<li>Shinsaku Tanaka</li>
+									<li>Kozue Kananiwa</li>
+									<li>Yoshinao Doi</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+					<tr> 
+						<th scope="row" class="infobox-label"> Käsikirjoittajat</th>
+						<td class="infobox-data">
+							<div class="plainlist">
+								<ul class="infobox-genre">
+									<li>Jukki Hanada</li>
+									<li><b>Supervised by:</b></li>
+									<li>Naotaka Hayash</li>
+									<li>Tatsuya Matsubara</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+					<tr> 
+						<th scope="row" class="infobox-label"> Säveltäjä</th>
+						<td class="infobox-data">
+							<div class="plainlist">
+								<ul class="infobox-genre">
+									<li>Jun Murakami</li>
+									<li>Takeshi Abo</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+					<tr> 
+						<th scope="row" class="infobox-label"> Studio</th>
+						<td class="infobox-data">
+							<div class="plainlist">
+								<ul class="infobox-genre">
+									<li>White Fox</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+					<tr> 
+						<th scope="row" class="infobox-label"> Lisensointi</th>
+						<td class="infobox-data">
+							<div class="plainlist">
+								<ul class="infobox-genre">
+									<li>AUS: Madman Entertainment</li>
+									<li>NA: Crunchyroll</li>
+									<li>UK: Manga Entertainment</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+					<tr> 
+						<th scope="row" class="infobox-label"> Ensiesitys</th>
+						<td class="infobox-data">
+							<div class="plainlist">
+								<ul class="infobox-genre">
+									<li>6 huhtikuuta 2011 – 14 syyskuuta 2011</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+					<tr> 
+						<th scope="row" class="infobox-label2"> Jaksot</th>
+						<td class="infobox-data">
+							<div class="plainlist">
+								<ul class="infobox-genre2">
+									<li>24</li>
+								</ul>
+							</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</aside>
+		
+		<article class="alkuteksi" id="alku">
+			<p class="alkuteksi2">
+				<i>
+					<b>Steins;Gate</b>
+				</i>
+			on Japanilainen anime-televisiosarja, jonka on tenhyt animaatiostudio White Fox, joka perustuu 5pd ja Nitroplusin vuoden 2009 tekemään samannimiseen visuaalisen novelliin. 
+			Tarina sijoittuu vuoteen 2010 ja seuraa Rintaro Okabea, joka yhdessä ystäviensä kanssa löytää vahingossa aikamatkustusmenetelmän, jonka avulla he voivat lähettää tekstiviestejä menneisyyteen ja muuttaa nykyhetkeä
+			</p>
+			<p class="alkuteksi2">
+				Se on osa Science Adventure -sarjaa yhdessä Chaos;Head and Robotics;Notes -sarjan kanssa. Sarjan on käsikirjoittanut Jukki Hanada ja ohjannut Hiroshi Hamasaki sekä Takuya Satō. Musiikin on tuottanut Takeshi Abo ja Kyuuta Sakai suunnitteli hahmot.
+			</p>
+			<p class="alkuteksi2">
+				Kriitikot ylistävät sarjaa sen hahmonkehitystä ja sen teemoja aikamatkoista, ihmisluonteesta ja sen näkökulmasta PTSD:hen. Sitä pidetään yhtenä 2010-luvun parhaista animesarjoista. Sarja on synnyttänyt neljä alkuperäistä verkkoanimaatiojaksoa ja spinoff-elukuvan. 
+			</p>
+			<h2 id="tarina">
+				Tarina
+			</h2>
+			<figure class="plot-kuva" id="plot-kuv">
+				<img src="Kuvat/3003_01.jpg" alt="Akihabara" width="328" height="248">
+				<figcaption>
+					<i>Steins;Gate</i>
+					sijoittuu Akihabaraan, Tokyoon
+				</figcaption>
+			</figure>
+			<p class="Plot">
+				<i>Steins;Gate</i>
+				on adaptio visuaalisesta novellista, jolla on sama nimi. Tarina sijoittuu 2010 Tokioon, Akihabaraan ja seuraa Okabe Rintaroa, "hulluksi tiedemieheksi" julistautunutta tiedemiestä, joka johtaa "Future Gadget Laboratorya" yhdessä ystäviensä Shiinan Mayuri ja Hashidan "Daru" Itaru kanssa.
+				Osallistuessaan aikamatkustuskonferenssiin Okabe löytää neurotieteen tutkija Makisen Kurisun ruumiin. Poistuttuaan paikalta hän lähettää tekstiviestin siitä Darulle ja ja saa myöhemmin selville, että Kurisu on elossa ja että viesti saapui ennen kuin hän lähetti sen.
+				Laboratorion jäsenet oppivat, että heidän kehittämänsä matkapuhelimella toimiva mikroaaltouuni pystyy lähettämään tekstiviestejä ajassa taaksepäin. Makisen Kurisu liittyy myöhemmin mukaan laboratorioon ja tutkivat asiaa lähettämällä tekstiviestejä niin sanottuja D-maileja menneisyyteen muuttaakseen nykyisyyttä.
+				Kurisu luo lopulta laitteen, joka pystyy lähettämään muistoja mikroaaltouunin läpi, jonka avulla käyttäjä voi matkustaa ajassa.
+			</p>
+			<p class="Plot">
+				Sern, Cerniin perustuva kuvitteellinen organisaatio, saa selville aikakoneen olemassa olemisen ja lähettää agentteja laboratorioon hakemaan sitä, tappaen samalla Mayurin. Tämän seurauksena Okabe matkustaa ajassa taaksepäin useita kertoja estääkseen Mayurin kuoleman, mutta epäonnistuu joka kerta.
+				Hän oppii, että hänen on kumottava kaikki D-mailien aiheuttamat muutokset ja tekee niin, kunnes tajuaa, että ensimmäisen D-mailin kumoaminen palauttaisi hänet aikajanalle, jossa Kurisu löydettiin kuolleena.
+			</p>
+			<p class="Plot">
+				Okabe ja Kurisu tunnustaa rakkautensa toisiaan kohtaan, minkä jälkeen Kurisu käskee Okabea pelastamaan Mayurin. Daru murtautuu SERNin tietokantaan ja poistavat ensimmäisen D-mailin palauttaen heidät alkuperäiselle aikajanalle. 
+				Myöhemmin Suzuha Amane, Darun tuleva tytär, saapuu aikakoneella kertomaan Okabelle, että ainoa tapa estää kolmanteen maailmansotaan johtava aikamatka-asekilpailu on estää Kurisun isää Nakabachia tappamasta Kurisua ja varastamasta hänen aikamatkustusteorioitaan. Suzuha ja Okabe matkustavat ajassa taaksepäin, mutta Okabe tappaa vahingossa Kurisun.
+				Palattuaan nykyhetkeen, Okabe saa viestin itseltään tulevausuudesta, jossa kerrotaan, että paetakseen nykyiseltä aikajanalta hänen on pelastettava Kurisu säilyttäen kuvan kuolleesta Kurisusta, jonka hän näki menneisyydessä.
+				Okabe matkustaa uudelleen ajassa taaksepäin ja provosoi Nakabachia puukottamaan häntä, jonka jälkeen hän tainnuttaa Kurisun tajuttomaksi ja laittaa hänet verilammikoon menneisyyden Okaben nähtäväksi. Tämä aiheuttaa aikajanan muuttumisen siihen missä Kurisu elää eikä kolmatta maailmansotaa tapahdu.
+			</p>
+			<h2 id="näyttelijät">
+				Näyttelijät
+			</h2>
+			<dl>
+				<dt class="cast" id="okabe">
+					Okabe "Okarin" Rintaro
+				</dt>
+				<dd class="cast-text">
+					Okabe Rintaro on <i>Steins;Gate</i> päähenkilö. Rintaro on omalaatuinen henkilö, joka kustuu itseään hulluksi tiedemieheksi ja käyttää usein salanimeä Hououin Kyoumaa. Mayuri ja Daru kutsuvat häntä "Okariniksi", joka on yhdistelmä hänen suku- ja etunimestä. Hän on 18-vuotias ja ensimmäisen vuoden opiskelija Tokio Denki -yliopistossa ja hän on perustanut "Future Gadget Laboratory",
+					joka sijaitsee Akihabarassa. Hän viettää suurimman osan ajastaan siellä ja kutsuu itseään "Lab Member No. 001". Rintaro antaa kuvitelman, että hän olisi vainoharhainen, koska hän väitää että "organisaatio" jahtaa häntä, puhuu itselleen puhelimessa ja usein nauraa hullunkurisesti. Häntä pilkataan usein tästä käytöksestä ja häntä kutsutaan chunibyouksi. 
+					Tarinan edetessä hän rauhoittuu ja osoittaa olevansa sisimmässään hyväsydäminen ja uskollinen ystävä, joka vain leikkii olevansa Hououin Kyouma peittääkseen omat epävarmuutensa. Tutkiessaan aikamatkailua hän oppii, että hän on ainoa, jolla on kyky määrittää muutoksia eri aikajanojen välillä ja kutsuu tätä kykyä "Reading Steineriksi". Syytä tähän ei kerrota tarinassa, mutta 
+					viitataan, että kuumeella, jonka hän sairasti lapsena olisi jotain tekemistä asian kanssa.
+				</dd>
+				<dt class="cast" id="makise">
+					Makise Kurisu
+				</dt>
+				<dd class="cast-text">
+					Makise Kurisu on pelin "main heroine" ja laboratorion jäsen "Lab Member No. 004". Hän on 18-vuotias neurotieteen tutkija amerikkalaisessa yliopistossa. Kurisu on erittäin lahjakas ja nuoresta iästä huolimatta on julkaissut akateemisen tutkimuksen "Science" lehteen. Rintaro usein kutsuu häntä assistentikseen tai joksikin useista keksimistään lempinimistä, kuten "Christina",
+					"the Zombie" tai "Celeb Sev". Tämä häiritsee Makisea usein.
+				</dd>
+				<dt class="cast" id="mayushii">
+					Shiina "Mayushii" Mayuri
+				</dt>
+				<dd class="cast-text">
+					Shiina Mayuri on Rintaron lapsuuden ystävä ja on hieman tyhjäpää. Hän on laboratorion jäsen "Lab Member No. 002". Mayuri nauttii cosplay-asujen luomisesta ja on osa-aikatyössä kahvilassa nimeltä "MayQueen NyanNyan". Hän kutsuu itseään Mayushiiksi, joka on yhdistelmä hänen etu- ja sukunimestä. Itaru myös kutsuu häntä samalla nimellä. Hänellä on omalaatuinen lauleleva puhetapa ja tyypillisesti hän sanoo tutturūū saapuessaan tai esitellesään itsensä. 
+					Useita vuosia sitten hän menetti isoäitinsä tuntemattomasta syystä ja estääkseen häntä sortumasta suruun Rintaro julisti hänet panttivangikseen, synnyttäen samalla Hououin Kyouma persoonan. Hän on 16-vuotias ja Hän on toisen vuoden opiskelija yksityisessä yliopistoon valmistavassa koulussa.
+				</dd>
+				<dt class="cast" id="hasida">
+					Hashida "Daru" Itaru
+				</dt>
+				<dd class="cast-text">
+					Hashida Itaru on kokenut hakkeri, joka on tuntenut Rintaron lukiosta lähtien ja on laboratorion jäsen "Lab Member No. 003". Hän on erittäin taitava tietokoneohjelmoinnissa vanhojen että uusien tietokonelaitteistojen kanssa. Hän on myös hyvin perillä otaku-kulttuuriin liittyvistä asioista. Rintaro kutsuu häntä joskus Super Hackaksi, lausuen väärin englanninkielisen sanan "hacker" hänen harmikseen.
+					Itaru usein suuttuu Rintaron vainoharhaisesta käytöksestä. Hän on 19-vuotias ja Rintaron tavoin ensimmäisen vuoden opiskelija Tokyo Denki -yliopistossa
+				</dd>
+				<dt class="cast" id="kiryu">
+					Kiryu Moeka
+				</dt>
+				<dd class="cast-text">
+					Kiryu Moeka on pitkä 20-vuotias nainen johon Rintaro törmää Akihabarassa, ja hän etsii IBN 5100 tietokonetta. Hän on laboratorion jäsen "Lab Member No. 005". Moeka on erittäin suojeleva matkapuhelimestaan ja hermostuu, jos joku yrittää ottaa sen hänen kädestään. Hän on hyvin ujo ja mieluummin keskustelee jonkun kanssa lähettämällä tekstiviestejä sen sijaan, että puhuisi, vaikka henkilö olisi suoraan hänen edessään.
+					Okabe kutsuu häntä Shining Fingeriksi.
+				</dd>
+				<dt class="cast" id="urushibara">
+					Urushibara Luka
+				</dt>
+				<dd class="cast-text">
+					Urushibara Luka on 16-vuotias ja on Okaben ystävä sekä laboratorion jäsen "Lab Member No. 006". Hänen ulkonäkönsä ja käytöksensä ovat varsin naisellisia ja tämän seurauksena ulkopuoliset voivat luulla häntä ensin naiseksi vaikka onkin mies. Hän on myös Mayurin läheinen ystävä ja luokkatoveri. Mayuri usein pyytää häntä kokeilemaan hänen cosplay-asujaan, mutta koska Urushiba on melko ujo, hän yleensä kieltäytyy.
+				</dd>
+				<dt class="cast" id="faris">
+					Faris NyanNyan
+				</dt>
+				<dd class="cast-text">
+					Faris NyanNyan on 17-vuotias ja työskentelee kahvilassa nimeltä "MayQueen NyanNyan", samassa kahvilassa, jossa Mayuri työskentelee. Hän on siellä suosituin tarjoilija ja myös laboratorion jäsen "Lab Member No. 007". Hänen oikea nimensä on Akiha Rumiho. Hänen sukunsa omistaa Akihabaran alueen ja on päätekiä, jonka takia akihabarasta tuli moe- ja anime-kaupungin.
+				</dd>
+				<dt class="cast" id="amane">
+					Amane Suzuha
+				</dt>
+				<dd class="cast-text">
+					Amane Suzuha on työskentelee osa-aikaisesti Rintaron asunnon vuokranantajalle ja etsii isäänsä Akihabarassa. Hän on laboratorion jäsen "Lab Member No. 008". Suzuha nauttii pyöräilystä ja vaikuttaa olevan jonkinlaisessa ristiriidassa Kurisun kanssa jostain syystä. 
+					Myöhemmin paljastuu, että hän on itse asiassa aikamatkustaja tulevaisuudesta, joka esiintyi John Titorina, ja on Hashidan Itaru tuleva tytär, oikealta nimeltään Hashida Suzu.
+				</dd>
+				<dt class="cast" id="yugo">
+					Tennouji Yugo
+				</dt>
+				<dd class="cast-text">
+					Hän on Okaben vuokranantaja, joka omistaa televisionkorjausliikkeen hänen asuntonsa alapuolella ja asuu tyttärensä Naen kanssa. Rintaro on anatanut hänelle lempinimen "Mr. Braun" hänen intohimonsa takia putkitelevisiohin (Japanissa tunnetaan myös nimellä "Braun-tube TV:ksi").
+					Hän on yleensä karkea ja kärsimätön, erityisesti vuorovaikutuksessa Rintaron kanssa, mutta käyttäytyy hellästi tyttärensä ja televisioidensa suhteen.
+				</dd>
+				<dt class="cast" id="nae">
+					Tennouji Nae
+				</dt>
+				<dd class="cast-text">
+					Yugon tytär. Tulee hyvin toimeen Mayurin ja Suzuhan kanssa, mutta pelkää Rintaroa.
+				</dd>
+			</dl>
+			<h2 id="lahde">
+				Lähteet
+			</h2>
+			<p class="lahde-text">
+				1. <a href="https://steins-gate.fandom.com/wiki/Steins;Gate_Wiki">Steins;Gate Wiki</a>
+				<span> Steins;Gate fandom </span>
+			</p>
+			<p class="lahde-text">
+				2. <a href="https://en.wikipedia.org/wiki/Steins;Gate_(TV_series)">Steins;Gate Wiki</a>
+				<span> Steins;Gate (TV series) </span>
+			</p>
+			<p class="lahde-text">
+				3. <a href="#plot-kuv">Kuva Akihabara</a>
+			<span> Kuvan omistaja Taiyaki Collectibles LLC </span>
+			</p>
+			<p class="lahde-text">
+				4. <a href="Kuvat/kisspng-steins-gate-0-rintarou-okabe-visual-novel-mages-steins-gate-5b231be5070101.9959607615290275570287.png">Steins;Gate header picture logo</a>
+				<span> Steins;Gate official art </span>
+			</p>
+			<p class="lahde-text">
+				5. <a href="Kuvat/756c0afc7e61b378dd49dd3d14263ec8.jpg">Steins;Gate taustakuva</a>
+				<span> Steins;Gate official art by Huke </span>
+			</p>
+			<p class="lahde-text">
+				6. <a href="Kuvat/Steins;Gate_cover_art.jpg">Steins;Gate Windows cover</a>
+				<span> Steins;Gate official Windows cover by Huke </span>
+			</p>
+			<p class="lahde-text">
+				7. <a href="Kuvat/steins-gate-kurisu-makise-video-game-sticker-animation-1881208c10262989902450ebb784c4cd.png">Steins;Gate Makise Kurisu logo footer</a>
+				<span> Steins;Gate fanart by unknows artist </span>
+			</p>
+		</article>
+		
+		</main>
+		
+		<footer id="loppu">
+			<ul class="footer-ul">
+				<li id="dynamicDate"></li>
+				<li id="footer-copyright">Tällä sivustolla käytetään tietoa ja kuvia, joita en omista. Kaikki kunnia kuuluu alkuperäisille tekijöille</li>
+			</ul>
+			<ul id="footer-link">
+				<li id="footer-tietosuojaseloste">
+					<a href="#alku">Tietosuojaseloste</a>
+				</li>
+				<li id="footer-tietoturva-ja-yksityisyyslauseke">
+					<a href="#alku">Tietoturva- ja yksityisyyslauseke</a>
+				</li>
+				<li id="footer-ota-yhteyttä">
+					<a href="#alku">Ota yhteyttä</a>
+				</li>
+				<li id="footer-kehittäjät">
+					<a href="#alku">Kehittäjät</a>
+				</li>
+				<li id="footer-bootstrap">
+					<a href="Bootstrap\index.html">Linkki bootstrap sivustolle</a>
+				</li>
+			</ul>
+			<figure id="logo">	
+				<img src="Kuvat/steins-gate-kurisu-makise-video-game-sticker-animation-1881208c10262989902450ebb784c4cd.png" alt="Steins Gate logo" width="108" height="108">
+			</figure>
+		</footer>
+    </div>
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+    var popupContainer = document.getElementById('popup-container');
+    var closePopupButton = document.getElementById('close-popup');
+
+    popupContainer.style.visibility = 'visible';
+    popupContainer.style.opacity = '1';
+
+    closePopupButton.addEventListener('click', function () {
+        popupContainer.style.visibility = 'hidden';
+        popupContainer.style.opacity = '0';
+
+        document.getElementById('main-content').style.overflow = 'auto';
+    });
+});
+
+        function updateDate() {
+            var currentDate = new Date();
+            var dateString = currentDate.toLocaleDateString('fi-FI');
+            var timeString = currentDate.toLocaleTimeString('fi-FI');
+            var fullDateString = 'Tämä sivu on viimeksi avattu: ' + dateString + ' klo ' + timeString;
+
+            document.getElementById('dynamicDate').textContent = fullDateString;
+        }
+
+        window.onload = function() {
+            updateDate();
+
+            document.getElementById('editableInput').addEventListener('input', updateDate);
+        };
+		</script>
+	</body>
+</html>

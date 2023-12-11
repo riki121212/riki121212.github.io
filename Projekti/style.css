@@ -1,0 +1,429 @@
+body {
+	background-image: url(Kuvat/756c0afc7e61b378dd49dd3d14263ec8.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-family: sans-serif;
+}
+
+.laatikko {
+    width: 80%;
+    height: 100%;
+	padding: 20px;
+	padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+	margin-top: 0;
+	overflow: auto;
+    }
+
+.popup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.popup-content {
+    background: white;
+    padding: 20px;
+    text-align: center;
+	color: black;
+}
+
+#close-popup {
+    background: #0056B3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+#close-popup:hover {
+    background: #0056b3;
+}
+
+header {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-picture {
+	width: auto;
+	max-height: 100px;
+	max-width: 250px;
+	display: block;
+	
+}
+
+.header-top {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.header-name {
+	display: flex;
+	align-items: center;
+	color: white;
+	text-decoration: none;
+	margin-left: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	max-width: 180px;
+	font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+}
+
+@media only screen and (min-width: 1120px) {
+.header-name {
+	font-size: 24px;
+	font-weight: normal;
+}
+}
+
+.nav {
+	text-align: right;
+}
+
+.nav-ul {
+	list-style: none;
+}
+
+.nav-li {
+	display: inline-block;
+    margin-right: 10px;
+}
+
+.nav-links {
+	text-decoration: none;
+}
+
+.nimi {
+	font-size: 16px;
+	letter-spacing: normal;
+	color: white;
+}
+
+@media only screen and (max-width: 1120px) {
+.nimi {
+	font-size: 12px;
+}
+}
+
+@media only screen and (max-width: 1120px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header-name {
+    margin-top: 10px;
+  }
+}
+
+h1 {
+	text-align: center;
+}
+
+h5 {
+	text-align: center;
+	font-size: 17px;
+	font-family: sans-serif;
+}
+
+main{
+	
+}
+
+.list-tekniikat {
+	display: flex;
+	justify-content: center;
+}
+
+.tekniikat {
+	display: inline-block;
+	margin: 0;
+	margin-left: 60px;
+	padding: 0 0;
+	list-style: none;
+	max-width: 210px;
+}
+
+.new-tekniikat {
+	padding: 5px 0;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+@media only screen and (max-width: 800px) {
+  .list-tekniikat {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.suus {
+	background-color: green;
+	font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+	
+}
+
+.infobox {
+	display: flex;
+	border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+    width: 22em;
+}
+
+.infobox-subheader {
+	color: black;
+}
+
+.infobox-image2 {
+	border: 1px solid white;
+}
+
+.infobox-label {
+	text-align: left;
+	vertical-align: top;
+	padding: 10px 0;
+    padding-top: 10px;
+}
+
+.infobox-label2 {
+	text-align: left;
+	vertical-align: top;
+	padding: 0 0;
+	padding-top: 10px;
+	
+}
+
+.infobox-genre {
+    line-height: inherit;
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.infobox-genre2 {
+    line-height: inherit;
+    list-style: none;
+    margin: 0 0;
+	margin-top: 10px;
+    padding: 0;
+}
+
+.infobox-data {
+	text-align: right;
+	vertical-align: top;
+}
+
+.plainlist {
+	display: block;
+}
+
+.alkuteksi2 {
+	margin: 0;
+	margin-top: 7px;
+	margin-bottom: 14px;
+	padding-top: 7px;
+	text-align: left;
+	font-size: 17px;
+}
+
+@media only screen and (max-width: 800px) {
+  .infobox {
+    order: -1;
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .infobox,
+  .alkuteksti {
+    margin: 10px 0;
+    padding: 10px;
+  }
+}
+
+h2 {
+	border-bottom: 1px solid #fff;
+	overflow: hidden;
+}
+
+.plot-kuva {
+	clear: left;
+	float: left;
+	margin: 10px 35px 10px 0;
+	display: table;
+	text-align: center;
+	border: 1px solid white;
+}
+
+.Plot {
+	margin: 0;
+	margin-top: 7px;
+	margin-bottom: 14px;
+	padding-top: 7px;
+	text-align: left;
+	font-size: 17px;
+
+}
+
+.cast {
+	font-weight: bold;
+	font-size: 17px;
+}
+
+.cast-text {
+	margin: 10px 0; 
+	font-size: 17px;
+}
+
+article {
+	text-align: left;
+}
+
+footer {
+	width: 100%;
+    height: 100%;
+	padding-top: 20px;
+    color: white;
+    text-align: left;
+	margin-top: 0;
+	border-top: 1px solid white;
+	overflow: visible;
+	position: relative;
+}
+
+.footer-ul {
+	list-style: none;
+	font-size: 15px;
+}
+
+#dynamicDate {
+	text-align: left;
+	margin-left: -40px;
+	padding: 0;
+	font-size: 15px
+}
+
+#footer-copyright {
+	text-align: left;
+	padding: 0;
+	font-size: 15px;
+	margin: 20px 0;
+	margin-left: -40px;
+}
+
+#footer-link {
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: -40px;
+	grid-column-gap: 24px;
+	grid-template-columns: repeat(auto-fit, minmax(2ch, max-content));
+	width: 100%;
+	position: relative;
+}
+#footer-link a {
+	color: #0073E5;
+}
+
+@media only screen and (max-width: 1020px) {
+  #footer-link {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+#logo {
+	position: absolute;
+	top: 3px;
+	right: 0px;
+	max-height: 90px;
+	max-width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 1180px) {
+  #logo {
+    position: static;
+    margin: 0px;
+  }
+}
+
+.dropdown-menu {
+   display: none;
+   position: absolute;
+   background-color: #333; /* Background color of the dropdown */
+   padding: 10px;
+   list-style: none;
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu a {
+   color: white; /* Text color of the dropdown items */
+   text-decoration: none; /* Remove underline from links, if desired */
+    
+}
+
+.dropdown-li {
+	padding: 10px 0;
+}
+
+.nav-li:hover .dropdown-menu {
+   display: block;
+   
+}
+
+#tarina {
+	font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+}
+
+#näyttelijät {
+	font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+}
+
+#lahde {
+	font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+}
+
+.lahde-text {
+	margin: 0;
+	margin-top: 7px;
+	margin-bottom: 14px;
+	padding-top: 7px;
+	text-align: left;
+	font-size: 17px;
+
+}
+
+.lahde-text a {
+	color: #0073E5;
+}

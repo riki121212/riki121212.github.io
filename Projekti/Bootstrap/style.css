@@ -1,0 +1,93 @@
+body {
+    background-color: rgba(0, 0, 0, 0.9);
+	font-family: sans-serif;
+    }
+
+.navbar, .navbar-brand, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+	background-color: white;
+	color: black;
+}
+
+.navbar {
+	border-bottom: 1px solid black;
+}
+
+h1 {
+	font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+}
+
+h2 {
+	font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+}
+
+#featured-3{
+	color: white;
+}
+
+.alert {
+	text-align:center;
+}
+
+#sas {
+	background-image: url(Kuvat/756c0afc7e61b378dd49dd3d14263ec8.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-color: #ffffff;
+}
+
+.btn-outline-secondary {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-outline-secondary:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+
+.btn-outline-primary {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-primary {
+    background-color: #000;
+    border-color: #000;
+}
+
+.btn-primary:hover {
+    color: #000;
+	background-color: #fff;
+	border-color: #000;
+}
+
+.btn-outline-primary:hover {
+    color: #000;
+    background-color: #fff;
+    border-color: #000;
+}
+
+.card-header.py-3.text-white.bg-primary.border-primary {
+    background-color: #000 !important;
+}
+
+.border-primary {
+	border-color: #000 !important;
+}
+
+a {
+	color: #0073E5;
+}
+
+footer {
+	color: white;
+}
+
+.link-secondary {
+	color: white !important;
+}
